@@ -75,3 +75,8 @@ a.tip-preview-footer-description-link {
 a.tip-preview-footer-description-link:hover {
     text-decoration: underline;
 }
+
+/* AI編集ボタンを削除 */
+a[href^="/i/imagine?postId="] {
+    display: none;
+}
